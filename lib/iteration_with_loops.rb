@@ -1,5 +1,6 @@
 def join_nested_strings(src)
-  
+  new_string = '';
+  row_index = 0
 end
 
   # src will be an Array of Arrays of Strings and Integers
