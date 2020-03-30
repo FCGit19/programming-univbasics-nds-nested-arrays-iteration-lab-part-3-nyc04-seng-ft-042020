@@ -8,13 +8,13 @@ def join_nested_strings(src)
     while element_index < src[row_index].count do 
       if src[row_index][element_index].class == String 
         new_string += src[row_index][element_index]
-        new_array.join(" ") << new_string
+        new_array << new_string
       end
       element_index += 1 
     end 
     row_index += 1
   end 
-  new_array
+  new_array.join(" ")
 end
 
   # src will be an Array of Arrays of Strings and Integers
