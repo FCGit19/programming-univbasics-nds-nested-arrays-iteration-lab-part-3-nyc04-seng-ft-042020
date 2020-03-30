@@ -8,8 +8,9 @@ def join_nested_strings(src)
         
       end
       element_index += 1 
-      new_string += src[row_index[element_index]]
+      
     end 
+    new_string += src[row_index[element_index]]
     row_index += 1
   end 
   new_string
